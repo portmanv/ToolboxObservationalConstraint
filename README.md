@@ -20,5 +20,9 @@ The needed packages may have conflicual versions. We recommand the use of a virt
 # Definition of the variables
 Observational constrained enables to constrain the distribution of a future variable $X$, by using the observation of a given variable $X$. It is thus necessary to define $X$, $Y$, and import the $X$ and $Y$ values of climate models and the $X$ value observed.
 
-The notebook "Part2_define_X_and_Y.ipynb" imports and computes the $X$ and $Y$ values associated to different climate models.
+The notebook "Part2_define_X_and_Y.ipynb" imports and computes the $X$ and $Y$ values associated to different CMIP6 climate models.
 In this example, $X$ is the global temperature averaged between 2015 and 2023. $Y$ is the global temperature averaged between 2091 and 2100.
+
+# Constrain the distribution of $Y$
+The linear observational constrain is applied in the notebook "Part3_observational_constrain.ipynb".
+![distributions](https://github.com/user-attachments/assets/ccefdadd-1e83-4ef5-b294-e56f4a3f8385)
