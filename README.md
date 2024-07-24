@@ -1,4 +1,4 @@
-# Toolbox_Observational_Constraint
+# Toolbox Observational Constraint
 An example of univariate observational constraint, applied to the global temperature.
 
 
