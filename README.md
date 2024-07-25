@@ -1,9 +1,6 @@
 # Toolbox Observational Constraint
-This toolbox shows how to construct an observational constraint, from start to finish, based on an univariate example.
-It shows how to import climate models data and observations, how to construct the variable to be constrained and the variable to constrain.
-
-An example of univariate observational constraint, applied to the global temperature.
-
+This toolbox shows how to construct an observational constraint, from start to finish, based on an univariate example applied to the global temperature.
+This example shows how to import climate models data and observations, how to construct the variable to be constrained and the variable to constrain, and how to build and represents the observational constraint.
 
 
 
