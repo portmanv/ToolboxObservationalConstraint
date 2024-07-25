@@ -41,7 +41,8 @@ In this example, the multi-model mean $\mu_X$ is close to the observation $x_0$.
 $$\mathbb{E}[Y|X_0=x_0] = \mu_Y+ \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1}(x_0-\mu_X)$$
 
 
-The constrained variance is lower than the unconstrained variance, as there is a strong link between $X$ and $Y$, and a small observational uncertainty $\Sigma_{N}$, as describes the equation: 
+The constrained variance is lower than the unconstrained variance, as there is a strong link between $X$ and $Y$, and a small observational uncertainty $\Sigma_{N}$, as describes the equation:
+
 $$\mathbb{V}(Y|X_0) = \Sigma_{Y} - \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1} \Sigma_{XY}$$
 
 
