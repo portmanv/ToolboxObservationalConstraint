@@ -37,6 +37,7 @@ The parameters $\mu_{X}$, $\Sigma_{X}$, $\mu_{Y}$, $\Sigma_{Y}$ and $\Sigma_{XY}
 ![distributions](https://github.com/user-attachments/assets/ccefdadd-1e83-4ef5-b294-e56f4a3f8385)
 
 In this example, the multi-model mean $\mu_X$ is close to the observation $x_0$. Consequently, the unconstrained and constrained expectations are very similar, as describes the equation:
+
 $$\mathbb{E}[Y|X_0=x_0] = \mu_Y+ \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1}(x_0-\mu_X)$$
 
 
