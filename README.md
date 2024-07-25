@@ -29,7 +29,9 @@ The linear observational constrain is applied in the notebook "Part3_observation
 As describe in the article, the unconstrained distribution expectation and variance are $\mu_{Y}$ and $\Sigma_{Y}$.
 
 The constrained distribution expectation and variance are:
+
 $$\mathbb{E}[Y|X_0=x_0] = \mu_Y+ \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1}(x_0-\mu_X)$$
+
 $$\mathbb{V}(Y|X_0) = \Sigma_{Y} - \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1} \Sigma_{XY}$$
 
 The parameters $\mu_{X}$, $\Sigma_{X}$, $\mu_{Y}$, $\Sigma_{Y}$ and $\Sigma_{XY}$ are estimated on climate models. The observational uncertainty, of variance $\Sigma_{N}$, is estimated as the covariance matrix of the HadCRUT5 ensemble.
