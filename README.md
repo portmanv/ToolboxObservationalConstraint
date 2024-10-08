@@ -24,27 +24,6 @@ The notebook "Part2_define_X_and_Y.ipynb" imports and computes the $X$ and $Y$ v
 In this example, $X$ is the global temperature averaged between 2015 and 2023. $Y$ is the global temperature averaged between 2091 and 2100.
 
 # Constrain the distribution of $Y$
-The linear observational constrain is applied in the notebook "Part3_observational_constrain.ipynb".
-
-As describe in the article, the unconstrained distribution expectation and variance are $\mu_{Y}$ and $\Sigma_{Y}$.
-
-The constrained distribution expectation and variance are:
-
-$$\mathbb{E}[Y|X_0=x_0] = \mu_Y+ \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1}(x_0-\mu_X)$$
-
-$$\mathbb{V}(Y|X_0) = \Sigma_{Y} - \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1} \Sigma_{XY}$$
-
-The parameters $\mu_{X}$, $\Sigma_{X}$, $\mu_{Y}$, $\Sigma_{Y}$ and $\Sigma_{XY}$ are estimated on climate models. The observational uncertainty, of variance $\Sigma_{N}$, is estimated as the covariance matrix of the HadCRUT5 ensemble.
-
-![distributions](https://github.com/user-attachments/assets/ccefdadd-1e83-4ef5-b294-e56f4a3f8385)
-
-In this example, the multi-model mean $\mu_X$ is close to the observation $x_0$. Consequently, the unconstrained and constrained expectations are very similar, as describes the equation:
-
-$$\mathbb{E}[Y|X_0=x_0] = \mu_Y+ \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1}(x_0-\mu_X)$$
-
-
-The constrained variance is lower than the unconstrained variance, as there is a strong link between $X$ and $Y$, and a small observational uncertainty $\Sigma_{N}$, as describes the equation:
-
-$$\mathbb{V}(Y|X_0) = \Sigma_{Y} - \Sigma_{YX} (\Sigma_{X} + \Sigma_{N})^{-1} \Sigma_{XY}$$
+The linear observational constrain is applied and illustrated in the notebook "Part3_observational_constrain.ipynb".
 
 
